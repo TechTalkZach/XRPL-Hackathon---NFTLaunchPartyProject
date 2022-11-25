@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import { create } from 'ipfs-http-client'
 import React, { useState, useEffect } from 'react'
-import logo from '../src/public/owl-icon.svg'
+import logo from '../src/owl-icon.svg'
 
 const Connect = ({ setIpfs }) => {
   const [multiaddr, setMultiaddr] = useState('/ip4/127.0.0.1/tcp/5001')
